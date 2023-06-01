@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function landing_module_theme($existing, $type, $theme, $path)
+{
+    return [
+        'nav_bar_template' => [
+            'variables' => [
+                'value' => NULL,
+                'landingIsActive' => false,
+            ],
+        ],
+        'banner_background_template' => [
+            'variables' => []
+        ],
+        'carousel_template' => [
+            'variables' => [
+                'carouselItems' => NULL,
+            ]
+        ],
+        'project_details_template' => [
+            'variables' => []
+        ],
+        'map_template' => [
+            'variables' => []
+        ],
+        'info_template' => [
+            'variables' => [
+                'title' => NULL,
+                'text' => NULL,
+            ]
+        ],        
+        'footer_template' => [
+            'variables' => [
+                'body' => NULL,
+                'comments' => NULL,
+                'benefits' => NULL
+            ]
+        ]
+    ];
+}

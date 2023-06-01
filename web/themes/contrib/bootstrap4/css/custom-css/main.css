@@ -1,0 +1,18 @@
+.carousel-control-prev,
+.carousel-control-next {
+    border-width: 0
+}
+
+.carousel-control-prev:hover,
+.carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+    opacity: 0.5;
+}
+
+.carousel {
+    max-width: 935px;
+    margin: auto;
+}
+
+@import url(settings/main.css);

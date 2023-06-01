@@ -1,0 +1,8 @@
+.banner-background {
+    background-image: url("../../img/banner-girasoles.jpg");
+    width: 100%;
+    height: 35vh;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+}
